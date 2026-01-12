@@ -1,8 +1,8 @@
-// import Hello from "./hello";
-import { StateComponent2 } from './example/StateComponent2';
+import { PropsAndState } from "./example/PropsAndState";
+
 
 function App() {
-  return <StateComponent2></StateComponent2>;
+  return <PropsAndState></PropsAndState>;
 }
 
 export default App;
