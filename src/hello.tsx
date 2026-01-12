@@ -3,7 +3,7 @@ interface HelloProps {
   color?: string;
 }
 
-export const Hello = ({ name, color = 'blue' }: HelloProps) => {
+export const Hello = ({ name, color = "blue" }: HelloProps) => {
   return <div style={{ color }}>Hello {name}</div>;
 };
 

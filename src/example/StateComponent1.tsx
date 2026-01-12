@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 export const StateComponent1 = () => {
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState("");
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
     setMessage(e.target.value);

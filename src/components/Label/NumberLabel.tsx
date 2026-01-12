@@ -1,13 +1,11 @@
 import styled from "@emotion/styled";
 
-const Container = styled.label`
-
-`;
+const Container = styled.label``;
 
 interface NumberLabelProps {
-    data: number;
+  data: number;
 }
 
 export const NumberLabel = (numberLabelProps: NumberLabelProps) => {
-    return <Container>{numberLabelProps.data}</Container>;
+  return <Container>{numberLabelProps.data}</Container>;
 };
